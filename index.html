@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+
+		<!-- jQuery library -->
+		<script
+			type="text/javascript"
+			src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
+		></script>
+
+		<!-- Fancybox -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+		/>
+		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+		<!-- Google gont -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="portfolio.css" />
+
+		<!-- Icon -->
+		<link rel="stylesheet" href="fontawesome/css/all.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+		/>
+
+		<!-- Logo -->
+		<link rel="icon" href="assets/images/logo.png" />
+
+		<title>Website Portfolio</title>
+	</head>
+
+	<body id="Home">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img
+						class="img1"
+						src="assets/images/logo.png"
+						alt=""
+						width="45"
+						height="45"
+						class="d-inline-block align-text-center"
+					/>
+					Arkhan <span class="web">Lupfi</span>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#Home"
+								id="nav-dark"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about" id="nav-dark1"
+								>About</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#Myservices"
+								id="nav-dark2"
+								>Service</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="#Myportfolio"
+								id="nav-dark3"
+								>Portfolio</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Contact" id="nav-dark4"
+								>Contact</a
+							>
+						</li>
+						<li class="nav-item">
+							<span class="icon"
+								><i class="bi bi-moon-fill" id="toggleDark"></i
+							></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- Akhir Navbar -->
+
+		<!-- Home -->
+		<section id="Interface" class="home">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="images col-sm-6">
+						<div class="homeimg text-center">
+							<img
+								src="assets/images/blob-haikei.png"
+								alt=""
+								class="shape"
+								id="homeimgdark"
+							/>
+							<img
+								src="assets/images/gweh.png"
+								alt=""
+								class="boys"
+							/>
+						</div>
+					</div>
+					<div class="tagline col-sm-5 order-md-first">
+						Hello,<br />
+						I Am Arkhan <span class="blkg">Lupfi</span>
+						<p class="bgn">FRONTEND DEVELOPER</p>
+						<a href="#Contact"
+							><button type="button" class="btn btn-light btn">
+								Hire Me <i class="uil uil-message"></i></button
+						></a>
+						<a href="#"
+							><button type="button" class="btn btn-primary btnn">
+								Dwonload Resume
+								<i class="uil uil-download-alt"></i></button
+						></a>
+						<div class="scroll-content d-flex">
+							<a class="scroll" href="#about"
+								><i class="uil uil-mouse-alt"></i> Scroll down
+								<i class="bi bi-arrow-down-short"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Home -->
+
+		<!-- About -->
+		<section id="about">
+			<div class="container">
+				<div class="row text-center judul-about">
+					<h2 class="about-title text-center">About Me</h2>
+					<span class="text-muted">My introduction</span>
+				</div>
+				<div class="row justify-content-center">
+					<div class="images col-sm-4 text-center">
+						<div class="about-img">
+							<svg
+								class="about-blob text-center"
+								viewBox=" 0 0 200 187"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+							>
+								<mask id="mask0" mask-type="alpha">
+									<path
+										d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+									/>
+								</mask>
+								<g mask="url(#mask0)">
+									<path
+										d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+									/>
+									<image
+										xlink:href="assets/images/U.png"
+										class="about-img"
+									/>
+								</g>
+							</svg>
+						</div>
+					</div>
+					<div class="about-data col-sm-5">
+						<p class="about-description" id="description">
+							Hello, I'm a Beginner UI/UX Designer & Frontend
+							Developer from Jakarta, Indonesia. I adhere to the
+							principle of continuing to advance in the field of
+							education and technology development. I am able to
+							work individually or in collaboration with a team,
+							work quickly, up to date on technological and
+							information developments. I am interested in
+							becoming an Expert Programmer and Ui / Ux Designer.
+						</p>
+						<a
+							class="about-btn"
+							download=""
+							href="https://drive.google.com/file/d/1q_EmsK_lTXJz4uY6QsNKtkFerc1KpOla/view?usp=sharing"
+							target="_blank"
+						>
+							<button
+								type="button"
+								class="btn btn-primary btn-about"
+							>
+								Download CV <i class="uil uil-download-alt"></i>
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir About -->
+
+		<!-- My Services -->
+		<section id="Myservices">
+			<div class="container">
+				<div class="row text-center judul-service">
+					<h2>My Services</h2>
+					<span class="text-muted">What i offer</span>
+				</div>
+				<div class="row text-center row-cols-1 row-cols-xl-3">
+					<!-- Web Design -->
+					<div class="col-service">
+						<div class="card service-card">
+							<i class="web fa fa-paint-brush"></i>
+							<div class="card-body">
+								<h3 class="jdl">User Interface</h3>
+								<p class="psn">
+									Bringing visual beauty to every project. I
+									am committed to designing user interfaces
+									that are engaging, responsive, and true to
+									your brand identity.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- UI/UX Design -->
+					<div class="col-service">
+						<div class="card service-card">
+							<i class="web fa fa-solid fa-leaf"></i>
+							<div class="card-body">
+								<h3 class="jdl">UX</h3>
+								<p class="psn">
+									Crafting a standout user experience. We get
+									your users and design solutions that make
+									every interaction memorable and delightful.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- Frontend -->
+					<div class="col-service">
+						<div class="card service-card">
+							<i class="web fa fa-solid fa-desktop"></i>
+							<div class="card-body">
+								<h3 class="jdl">Frontend</h3>
+								<p class="psn">
+									Turning design into reality by implementing
+									responsive and interactive frontend code. I
+									focus on user interface, ensuring optimal
+									performance across multiple devices.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Services -->
+
+		<!-- My Portfolio -->
+		<section id="Myportfolio">
+			<div class="container">
+				<div class="row text-center judul-port">
+					<h2>Portfolio</h2>
+					<span class="text-muted">Most recent work</span>
+				</div>
+				<div class="row justify-content-center mb-3">
+					<div class="col-xl-8 md-6 sm-4">
+						<div
+							id="carousel1"
+							class="carousel slide"
+							data-bs-ride="carousel"
+						>
+							<ol class="carousel-indicators">
+								<li
+									data-bs-target="#carousel1"
+									data-bs-slide-to="0"
+									class="active bg-primary"
+									aria-current="true"
+									aria-label="Slide 1"
+								></li>
+								<li
+									class="bg-primary"
+									data-bs-target="#carousel1"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></li>
+								<li
+									class="bg-primary"
+									data-bs-target="#carousel1"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></li>
+							</ol>
+							<div class="carousel-inner">
+								<!-- port start -->
+								<div
+									class="portofolio-item carousel-item active bg-white rounder p-4 mb-5"
+								>
+									<div class="portfolio-content d-flex">
+										<a
+											href="assets/images/Staycation.png"
+											class="fancybox"
+											data-fancybox="Project"
+										>
+											<img
+												src="assets/images/Staycation.png"
+												class="card-img-top"
+												alt="Project1"
+											/>
+										</a>
+										<div class="author ms-4">
+											<h5 class="portfolio-title">
+												Staycation
+											</h5>
+											<p class="portfolio-description">
+												Website adaptable to all device,
+												with ui components andanimated
+												interactions
+											</p>
+											<a
+												class="btnportfolio"
+												href="https://staycation-bliss.vercel.app/"
+												target="_blank"
+												><button
+													type="button"
+													class="btn btn-primary btnn"
+												>
+													Demo
+													<i
+														class="bi bi-arrow-right-short"
+													></i></button
+											></a>
+										</div>
+									</div>
+								</div>
+								<!-- port end -->
+								<!-- port start -->
+								<div
+									class="portofolio-item carousel-item bg-white rounder p-4 mb-5"
+								>
+									<div class="portfolio-content d-flex">
+										<a
+											href="assets/images/PetaliGrace.png"
+											class="fancybox"
+											data-fancybox="Project"
+										>
+											<img
+												src="assets/images/PetaliGrace.png"
+												class="card-img-top"
+												alt="Project1"
+											/>
+										</a>
+										<div class="author ms-4">
+											<h5 class="portfolio-title">
+												PetaliGrace
+											</h5>
+											<p class="portfolio-description">
+												Website adaptable to all device,
+												with ui components andanimated
+												interactions
+											</p>
+											<a
+												class="btnportfolio"
+												href="https://petali-grace.vercel.app/"
+												target="_blank"
+												><button
+													type="button"
+													class="btn btn-primary btnn"
+												>
+													Demo
+													<i
+														class="bi bi-arrow-right-short"
+													></i></button
+											></a>
+										</div>
+									</div>
+								</div>
+								<!-- port end -->
+								<!-- port start -->
+								<div
+									class="portofolio-item carousel-item bg-white rounder p-4 mb-5"
+								>
+									<div class="portfolio-content d-flex">
+										<a
+											href="assets/images/satore.png"
+											class="fancybox"
+											data-fancybox="Project"
+										>
+											<img
+												src="assets/images/satore.png"
+												class="card-img-top"
+												alt="Project1"
+											/>
+										</a>
+										<div class="author ms-4">
+											<h5 class="portfolio-title">
+												Luxury Bag
+											</h5>
+											<p class="portfolio-description">
+												Website adaptable to all device,
+												with ui components andanimated
+												interactions
+											</p>
+											<a
+												class="btnportfolio"
+												href="https://arkhanlupfi.github.io/SixStore/"
+												target="_blank"
+											>
+												<button
+													type="button"
+													class="btn btn-primary btnn"
+												>
+													Demo
+													<i
+														class="bi bi-arrow-right-short"
+													></i></button
+											></a>
+										</div>
+									</div>
+								</div>
+								<!-- port end -->
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carousel1"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon text-bg-primary"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carousel1"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon text-bg-primary"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Portfolio -->
+
+		<!-- My BLog -->
+		<section id="MyBlog">
+			<div class="container">
+				<div class="row text-center judul-blog">
+					<h2 class="blog-judul">UI Design</h2>
+					<span class="text-muted">Most recent work</span>
+				</div>
+				<div class="row row-cols-1 row-cols-xl-4 g-4">
+					<div class="col-Blog">
+						<div class="card">
+							<a
+								href="assets/images/New Shot.png"
+								class="fancybox"
+								data-fancybox="Project"
+							>
+								<img
+									src="assets/images/New Shot.png"
+									class="card-img-top"
+									alt="Project1"
+								/>
+							</a>
+							<div class="card-body card-bdy">
+								<a class="blog-link"
+									><i class="bi bi-tag-fill"></i>Ui Design</a
+								>
+								<h3 class="card-title blogtitle">Staycation</h3>
+								<p class="blog-descripsi">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+									Lorem ipsum...
+								</p>
+								<a class="blog-date"
+									><i class="bi bi-calendar-check"></i> 12
+									April,2022</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-Blog">
+						<div class="card">
+							<a
+								href="assets/images/Dribbble.png"
+								class="fancybox"
+								data-fancybox="Project"
+							>
+								<img
+									src="assets/images/Dribbble.png"
+									class="card-img-top"
+									alt="Project1"
+								/>
+							</a>
+							<div class="card-body card-bdy">
+								<a class="blog-link"
+									><i class="bi bi-tag-fill"></i>Ui Design</a
+								>
+								<h3 class="card-title blogtitle">
+									Basic of UI/UX
+								</h3>
+								<p class="blog-descripsi">
+									Lorem ipsum dolor sit amet, consectetur
+									adipisicing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua.
+									Lorem ipsum...
+								</p>
+								<a class="blog-date"
+									><i class="bi bi-calendar-check"></i> 10
+									November,2023</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Blog -->
+
+		<!-- Awal Project in mind -->
+		<section id="project-in-mind">
+			<div class="container">
+				<div class="row justify-content-center mb-2">
+					<div class="col-xl-8 md-6 sm-4">
+						<!-- port start -->
+						<div class="project-item bg-white rounder mb-5">
+							<div class="project-content d-flex">
+								<img
+									class="img-project"
+									src="assets/images/gweh.png"
+									alt=""
+									width="25%%"
+								/>
+								<div
+									class="project col-xl-6 ms-4 order-md-first"
+								>
+									<h5 class="project-title">
+										You have a new project
+									</h5>
+									<p class="project-description">
+										Contact me now and get 25% discount on
+										your new project.
+									</p>
+									<a class="btnproject" href="#Contact"
+										><button
+											type="button"
+											class="btn btn-light"
+										>
+											Contact Me
+											<i
+												class="uil uil-message"
+											></i></button
+									></a>
+								</div>
+							</div>
+						</div>
+						<!-- testi end -->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akhir Project in mind -->
+
+		<!-- Awal Testimonials -->
+		<section id="testimonials">
+			<div class="container">
+				<div class="row text-center mt-1 judul-testi">
+					<h2>Testimonials</h2>
+					<span class="text-muted">My client saying</span>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-8 col-xl-7">
+						<div
+							id="carousel2"
+							class="carousel slide"
+							data-bs-ride="carousel2"
+						>
+							<ol class="carousel-indicators">
+								<li
+									data-bs-target="#carousel2"
+									data-bs-slide-to="0"
+									class="active bg-primary"
+									aria-current="true"
+									aria-label="Slide 1"
+								></li>
+								<li
+									class="bg-primary"
+									data-bs-target="#carousel2"
+									data-bs-slide-to="1"
+									aria-label="Slide 2"
+								></li>
+								<li
+									class="bg-primary"
+									data-bs-target="#carousel2"
+									data-bs-slide-to="2"
+									aria-label="Slide 3"
+								></li>
+							</ol>
+							<div class="carousel-inner">
+								<!-- testi start -->
+								<div
+									class="testi-item carousel-item active bg-white shadow-sm rounder p-4 mb-5"
+								>
+									<div class="testi-author-info d-flex">
+										<img
+											src="assets/images/ar1.jpg"
+											class="user rounded-circle"
+											alt="author img"
+											width="100"
+										/>
+										<div class="author ms-4 mt-3">
+											<h3 class="fs-6 mb-1">
+												Dadang Kempot
+											</h3>
+											<p class="text-muted m-0">
+												UI/UX Designer, Themeforest
+											</p>
+										</div>
+									</div>
+									<p class="text-muted mt-3">
+										<i
+											class="bi bi-chat-left-quote-fill"
+										></i>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Dolorum id laboriosam
+										sit tenetur earum natus!
+										<i
+											class="bi bi-chat-right-quote-fill"
+										></i>
+									</p>
+									<div class="rating">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-half"></i>
+									</div>
+								</div>
+								<!-- testi end -->
+								<!-- testi start -->
+								<div
+									class="testi-item carousel-item bg-white shadow-sm rounder p-4 mb-5"
+								>
+									<div class="testi-author-info d-flex">
+										<img
+											src="assets/images/ar2.png"
+											class="user rounded-circle"
+											alt="author img"
+											width="100"
+										/>
+										<div class="author ms-4 mt-3">
+											<h3 class="fs-6 mb-1">
+												Surya Keteng
+											</h3>
+											<p class="text-muted m-0">
+												Graphics Designer, Dribble
+											</p>
+										</div>
+									</div>
+									<p class="text-muted mt-3">
+										<i
+											class="bi bi-chat-left-quote-fill"
+										></i>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Dolorum id laboriosam
+										sit tenetur earum natus!
+										<i
+											class="bi bi-chat-right-quote-fill"
+										></i>
+									</p>
+									<div class="rating">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+									</div>
+								</div>
+								<!-- testi end -->
+								<!-- testi start -->
+								<div
+									class="testi-item carousel-item bg-white shadow-sm rounder p-4 mb-5"
+								>
+									<div class="testi-author-info d-flex">
+										<img
+											src="assets/images/ar3.png"
+											class="user rounded-circle"
+											alt="author img"
+											width="100"
+										/>
+										<div class="author ms-4 mt-3">
+											<h3 class="fs-6 mb-1">
+												Yanto Nesting
+											</h3>
+											<p class="text-muted m-0">
+												CEO, Fixi Company
+											</p>
+										</div>
+									</div>
+									<p class="text-muted mt-3">
+										<i
+											class="bi bi-chat-left-quote-fill"
+										></i>
+										Lorem ipsum dolor sit amet consectetur
+										adipisicing elit. Dolorum id laboriosam
+										sit tenetur earum natus!
+										<i
+											class="bi bi-chat-right-quote-fill"
+										></i>
+									</p>
+									<div class="rating">
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-fill"></i>
+										<i class="bi bi-star-half"></i>
+										<i class="bi bi-star-half"></i>
+									</div>
+								</div>
+								<!-- testi end -->
+							</div>
+							<button
+								class="carousel-control-prev"
+								type="button"
+								data-bs-target="#carousel2"
+								data-bs-slide="prev"
+							>
+								<span
+									class="carousel-control-prev-icon text-bg-primary"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button
+								class="carousel-control-next"
+								type="button"
+								data-bs-target="#carousel2"
+								data-bs-slide="next"
+							>
+								<span
+									class="carousel-control-next-icon text-bg-primary"
+									aria-hidden="true"
+								></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Akghir Testimonials -->
+
+		<!-- Contact -->
+		<section id="Contact">
+			<div class="container contact-container">
+				<span class="big-circle"></span>
+				<img src="img/shape.png" class="square" alt="" />
+				<div class="form">
+					<div class="contact-info">
+						<h3 class="title">Let's get in touch</h3>
+						<p class="text">
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Saepe dolorum adipisci recusandae praesentium
+							dicta!
+						</p>
+
+						<div class="info">
+							<div class="information">
+								<i class="bi bi-geo-alt-fill"> East Jakarta</i>
+							</div>
+							<div class="information">
+								<i class="bi bi-envelope-fill">
+									arkhanlupfi6@gmail.com</i
+								>
+							</div>
+							<div class="information">
+								<i class="bi bi-telephone-fill"
+									>+66 666 666 666</i
+								>
+							</div>
+						</div>
+
+						<div class="social-media">
+							<p>Connect with us :</p>
+							<div class="social-icons">
+								<a href="">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a
+									href="https://instagram.com/lupfi15/"
+									target="_blank"
+								>
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a
+									href="https://www.linkedin.com/in/arkhanlupfi/"
+									target="_blank"
+								>
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="contact-form">
+						<span class="circle one"></span>
+						<span class="circle two"></span>
+
+						<form action="" method="post" autocomplete="off">
+							<h3 class="title">Contact us</h3>
+							<div class="input-container">
+								<input
+									type="text"
+									name="name"
+									class="input"
+									placeholder="Username"
+								/>
+							</div>
+							<div class="input-container">
+								<input
+									type="email"
+									name="email"
+									class="input"
+									placeholder="Email"
+								/>
+							</div>
+							<div class="input-container">
+								<input
+									type="tel"
+									name="phone"
+									class="input"
+									placeholder="Phone"
+								/>
+							</div>
+							<div class="input-container textarea">
+								<textarea
+									name="message"
+									class="input"
+									placeholder="Message"
+								></textarea>
+							</div>
+							<input
+								type="submit"
+								name="submit"
+								value="Send"
+								class="btncontact"
+							/>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<script src="contact.php"></script>
+		</section>
+		<!-- Akhir Contact -->
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-3">
+						<div class="ftrlogo">
+							<img
+								class="mt-3"
+								src="assets/images/logo.png"
+								alt=""
+								width="28px"
+								height="28px"
+							/>
+							<h5 class="">Arkhan Lupfi</h5>
+						</div>
+						<p class="brand-tagline" style="width: 250px">
+							Elevate Your Brand with Flawless Frontend & UI
+							Design Expertise.
+						</p>
+					</div>
+					<div class="col-12 col-lg-3">
+						<h5 class="mt-2">For Beinners</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">New Account</li>
+							<li class="list-group-item">
+								Start Looking a portfolio
+							</li>
+							<li class="list-group-item">Use Payments</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3">
+						<h5 class="mt-2">Explore Us</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">Our Careers</li>
+							<li class="list-group-item">Privacy</li>
+							<li class="list-group-item">Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="col-12 col-lg-3">
+						<h5 class="mt-2">Connect Us</h5>
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								support@arkhanlupfi.id
+							</li>
+							<li class="list-group-item">021 - 2208 - 1996</li>
+							<li class="list-group-item">
+								ArkhanLupfi, PGede, Jakarta
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 text-center copyrights">
+						Copyright 2019 • All rights reserved • ArkhanLupfi
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Dark Mode -->
+		<script src="dark.js"></script>
+
+		<!-- Option 1: Bootstrap Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
