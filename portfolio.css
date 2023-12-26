@@ -748,7 +748,7 @@ footer {
 		}
 
 		.navbar-toggler {
-			justify-content: end;
+			margin-right: 10vw;
 		}
 
 		.shape {
@@ -769,8 +769,6 @@ footer {
 
 		.homeimg img {
 			height: 105%;
-			transform: none;
-			transition: none;
 		}
 
 
