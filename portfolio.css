@@ -1,10 +1,11 @@
 html,
 body {
 	margin: 0;
-	padding: 0;
-	overflow-x: hidden;
-	box-sizing: border-box;
-	background-color: white;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* Home */
@@ -282,7 +283,6 @@ a .btnn {
 
 .col-Blog {
 	margin-top: 4.5em;
-    width: 50%;
 }
 
 .card-bdy {
@@ -762,50 +762,85 @@ footer {
 	}
 }
 
-@media (max-width: 480px) {
-	.container {
-		padding: 1.5rem;
-	}
+/* Responsive Breakpoint */
+@media (max-width: 768px) {
+    @media screen and (max-width: 576px) {      
 
-	.contact-info:before {
-		display: none;
-	}
+		.container {
+			padding: 1.5rem;
+		}
 
-	.square,
-	.big-circle {
-		display: none;
-	}
+		.contact-info:before {
+			display: none;
+		}
 
-	form,
-	.contact-info {
-		padding: 1.7rem 1.6rem;
-	}
+		.square,
+		.big-circle {
+			display: none;
+		}
 
-	.text,
-	.information,
-	.social-media p {
-		font-size: 0.8rem;
-	}
+		form,
+		.contact-info {
+			padding: 1.7rem 1.6rem;
+		}
 
-	.title {
-		font-size: 1.15rem;
-	}
+		.text,
+		.information,
+		.social-media p {
+			font-size: 0.8rem;
+		}
 
-	.social-icons a {
-		width: 30px;
-		height: 30px;
-		line-height: 30px;
-	}
+		.title {
+			font-size: 1.15rem;
+		}
 
-	.icon {
-		width: 23px;
-	}
+		.social-icons a {
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+		}
 
-	.input {
-		padding: 0.45rem 1.2rem;
-	}
+		.icon {
+			width: 23px;
+		}
 
-	.btn {
-		padding: 0.45rem 1.2rem;
+		.input {
+			padding: 0.45rem 1.2rem;
+		}
+
+		.btn {
+			padding: 0.45rem 1.2rem;
+		}
+
+		#project-in-mind {
+			display: none;
+		}
+	
+		.portfolio-title {
+			font-size: 1.3em;
+		}
+
+		.portfolio-description {
+			font-size: 0.9em;
+		}
+				
+		.about-img {
+			width: 200px;
+			margin-left: 5vw;
+		}
+
+		.homeimg{
+			z-index: -1;
+			opacity: 0.8;
+		}
+
+		.tagline {
+			margin-top: 25vh;
+		}
+
+		.navbar-brand {
+			display: block;
+			margin-left: -2em;
+		}
 	}
 }
