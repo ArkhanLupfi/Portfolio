@@ -741,6 +741,29 @@ footer {
 		.shape {
 			overflow-x: hidden;
 		}
+				
+		.homeimg {
+			width: 45%;
+			height: 90%;
+		}
+
+		.homeimg .shape {
+			bottom: 0;
+			right: 0;
+		}
+
+		.homeimg img {
+			height: 105%;
+		}
+
+		.homeimg:hover .shape {
+			bottom: 0px;
+		}
+
+		.homeimg:hover .boys {
+			left: 0;
+		}
+
 
 		.container {
 			padding: 1.5rem;
@@ -807,7 +830,7 @@ footer {
 
 		.homeimg{
 			z-index: -1;
-			opacity: 0.8;
+			opacity: 0.9;
 		}
 
 		.tagline {
