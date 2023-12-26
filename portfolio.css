@@ -748,7 +748,7 @@ footer {
 		}
 
 		.navbar-toggler {
-			margin-right: 10vw;
+			margin-right: 40vw;
 		}
 
 		.shape {
@@ -757,7 +757,6 @@ footer {
 				
 		.homeimg {
 			width: 45%;
-			height: 90%;
 			z-index: -1;
 			opacity: 0.9;
 		}
@@ -769,6 +768,8 @@ footer {
 
 		.homeimg img {
 			height: 105%;
+			transform: none;
+			transition: none;
 		}
 
 
