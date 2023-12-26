@@ -738,6 +738,19 @@ footer {
 			scroll-behavior: smooth;
 		}		
 
+		.tagline {
+			margin-top: 25vh;
+		}
+
+		.navbar-brand {
+			display: block;
+			margin-left: -2em;
+		}
+
+		.navbar-toggler {
+			justify-content: end;
+		}
+
 		.shape {
 			overflow-x: hidden;
 		}
@@ -745,6 +758,8 @@ footer {
 		.homeimg {
 			width: 45%;
 			height: 90%;
+			z-index: -1;
+			opacity: 0.9;
 		}
 
 		.homeimg .shape {
@@ -754,7 +769,10 @@ footer {
 
 		.homeimg img {
 			height: 105%;
+			transform: none;
+			transition: none;
 		}
+
 
 		.homeimg:hover .shape {
 			bottom: 0px;
@@ -828,18 +846,5 @@ footer {
 			margin-left: 5vw;
 		}
 
-		.homeimg{
-			z-index: -1;
-			opacity: 0.9;
-		}
-
-		.tagline {
-			margin-top: 25vh;
-		}
-
-		.navbar-brand {
-			display: block;
-			margin-left: -2em;
-		}
 	}
 }
