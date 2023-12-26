@@ -766,6 +766,15 @@ footer {
 @media (max-width: 768px) {
     @media screen and (max-width: 576px) {      
 
+		body {
+			margin: 0;
+			padding: 0;
+			overflow-x: hidden;
+			overflow-y: scroll;
+			box-sizing: border-box;
+			scroll-behavior: smooth;
+		}		
+
 		.container {
 			padding: 1.5rem;
 		}
